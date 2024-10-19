@@ -180,7 +180,8 @@ function initLibrary()
     end
 
 
-    getgenv().guiXANAXsuka = utility.create("ScreenGui")
+    gui = utility.create("ScreenGui")
+    getgenv().guiXANAXsuka = gui
 
 
     inputService.InputBegan:Connect(function(input)
